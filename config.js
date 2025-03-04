@@ -1,7 +1,10 @@
+const acess_key_id = process.env.ACESS_KEY_ID
+const secret_key_id = process.env.SECRET_KEY_ID
+
 module.exports = {
   s3: {
-    accessKeyId: '', // TODO
-    secretAccessKey: '', // TODO
+    accessKeyId: acess_key_id, // TODO
+    secretAccessKey: secret_key_id, // TODO
     endpoint: '', // TODO
     bucket: '', // TODO
   },
