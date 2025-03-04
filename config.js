@@ -6,7 +6,7 @@ module.exports = {
     accessKeyId: acess_key_id, // TODO
     secretAccessKey: secret_key_id, // TODO
     endpoint: '', // TODO
-    bucket: '', // TODO
+    bucket: 'tp-cloud-exo-3-bucket', // TODO
   },
   suffix: {
     small: '_small.jpg',
